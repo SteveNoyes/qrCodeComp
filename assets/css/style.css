@@ -9,13 +9,26 @@
  */
 
 :root {
+
+  /* card background color */
   --white: hsl(0, 0%, 100%);
+
+  /* body background color */
   --light-gray: hsl(212, 45%, 89%);
+
+  /* p text color */
   --grayish-blue: hsl(220, 15%, 55%);
+
+  /* h1 text color */
   --dark-blue: hsl(218, 44%, 22%);
 }
 
 body {
   font-family: 'Outfit', sans-serif;
   font-size: 15px;
+  background-color: var(--light-gray);
+}
+
+.qrCard {
+  
 }
