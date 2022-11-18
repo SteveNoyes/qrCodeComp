@@ -23,12 +23,27 @@
   --dark-blue: hsl(218, 44%, 22%);
 }
 
+* {
+  border: 1px solid red;
+}
+
 body {
+  border: 1px solid green;
+  height: 100vh;
   font-family: 'Outfit', sans-serif;
   font-size: 15px;
   background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .qrCard {
-  
+
+}
+
+.attribution {
+  align-self: flex-end;
+  margin: auto;
 }

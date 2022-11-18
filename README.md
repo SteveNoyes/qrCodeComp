@@ -28,7 +28,7 @@ The challenge is to build out this QR code component and get it looking as close
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/SteveNoyes/qrCodeComp)
 - Live Site URL: [GitHub Pages](https://pages.github.com/)
 
 ## My process
@@ -70,17 +70,11 @@ const proudOfThisFunc = () => {
 }
 ```
 
-### Useful resources
+### Useful resources 
 
-- [The Markdown Guide](https://www.markdownguide.org/) - Helpful in making this more readable. 
+- [how to center a div](https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
-- [email input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
-- [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - Box shadow for button and div sections. 
-
-- [text spacing](https://www.w3schools.com/css/css_text_spacing.asp) - Spacing for the top header was made easier with this.
-
-- [HTML form placeholder](https://www.w3schools.com/howto/howto_css_placeholder.asp) - How to alter the placeholder text inside of HTML forms. 
 
 ## Author
 
