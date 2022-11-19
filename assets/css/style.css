@@ -9,38 +9,71 @@
  */
 
 :root {
-
   /* card background color */
   --white: hsl(0, 0%, 100%);
-
   /* body background color */
   --light-gray: hsl(212, 45%, 89%);
-
   /* p text color */
   --grayish-blue: hsl(220, 15%, 55%);
-
   /* h1 text color */
   --dark-blue: hsl(218, 44%, 22%);
 }
 
-* {
-  border: 1px solid red;
-}
+/* General Style */
 
 body {
-  border: 1px solid green;
   height: 100vh;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Outfit', sans-serif, monospace;
   font-size: 15px;
+  font-weight: 400;
   background-color: var(--light-gray);
+  color: var(--grayish-blue);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.qrCard {
+h1 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--dark-blue);
+}
 
+p {
+  line-height: 1.2rem;
+}
+
+/* QR Card Style */
+
+.qrCard {
+  /* remove this and vert center */
+  margin-top: 7rem;
+  border-radius: 1.6rem;
+  text-align: center;
+  background-color: var(--white);
+  width: 82%;
+  max-width: 340px
+}
+
+.qrCard img {
+  width: 300px;
+  border-radius: 1.2rem;
+  margin-top: 18px;
+}
+
+.qrCard h1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 80%;
+  margin: auto;
+}
+
+.qrCard p {
+  width: 78%;
+  margin: auto;
+  padding-bottom: 2rem;
 }
 
 .attribution {
